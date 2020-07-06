@@ -143,7 +143,7 @@ const Asteroid = () => {
                 }
             </Formik>
             {
-                false &&
+                progress &&
                 (
                     <Box border={1} m={1} p={3}>
                         <CircularProgress color="secondary" className={classes.progress} />
